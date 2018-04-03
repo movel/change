@@ -26,15 +26,15 @@ class App extends Component {
 
 		// On authentication
 		this.lock.on('authenticated', (authResult) => {
-			this.lock.getProfile(authResult.idToken, (error, profile) => {
-				if(error) {
-					console.log(error);
-					return;
-				}
+      this.lock.getProfile(authResult.idToken, (error, profile) => {
+        if(error){
+          console.log(error);
+          return;
+        }
 
-				this.setData(authResult.idToken, profile);
-			});
-		});
+        this.setData(authResult.idToken, profile);
+      });
+    });
 
 		this.getData();
 	}
