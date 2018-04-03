@@ -45,7 +45,7 @@ class App extends Component {
 		localStore.setItem('profile', JSON.stringify(profile));	
 		this.setState({
 			idToken: localStorage.getItem('idToken'),
-			profile: JSON.parse(localStorage.getItem('profile')
+			profile: JSON.parse(localStorage.getItem('profile'))
 		});
 	}
 	
