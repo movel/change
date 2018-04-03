@@ -41,8 +41,8 @@ class App extends Component {
 
 	// Set token & profile data
 	setData(idToken, profile) {
-		localStore.setItem('idToken', idToken);
-		localStore.setItem('profile', JSON.stringify(profile));	
+		localStorage.setItem('idToken', idToken);
+		localStorage.setItem('profile', JSON.stringify(profile));	
 		this.setState({
 			idToken: localStorage.getItem('idToken'),
 			profile: JSON.parse(localStorage.getItem('profile'))
