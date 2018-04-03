@@ -54,7 +54,7 @@ class App extends Component {
 		if(localStorage.getItem('idToken') != null) {
 			this.setState({
 				idToken: localStorage.getItem('idToken'),
-				profile: JSON.parse(localStorage.getItem('profile')
+				profile: JSON.parse(localStorage.getItem('profile'))
 			}, () => {
 				console.log(this.state);
 			});
