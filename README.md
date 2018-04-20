@@ -130,3 +130,5 @@ This project is licensed under the MIT license. See the [LICENSE](LICENSE.txt) f
 * 📱 __Responsive__: Made mobile responsive with Flexbox
 
 * 🔥 __Live__: Deployed with [Surge](https://surge.sh/)
+## Links:
+* https://github.com/alemesa/news-api-react
