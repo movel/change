@@ -1,6 +1,7 @@
 {
   "name": "centralized-login",
   "version": "0.1.0",
+  "homepage": "https://github.io/movel/test_maxpfrontend",
   "private": true,
   "devDependencies": {
     "react-scripts": "0.9.5"
