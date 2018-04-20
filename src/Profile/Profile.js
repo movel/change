@@ -34,7 +34,7 @@ class Profile extends Component {
             </div>
             )
         }
-        { 
+        {
           !isAuthenticated() && (
               <h4>
                 You are not logged in! Please{' '}
