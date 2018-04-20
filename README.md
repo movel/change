@@ -132,3 +132,4 @@ This project is licensed under the MIT license. See the [LICENSE](LICENSE.txt) f
 * 🔥 __Live__: Deployed with [Surge](https://surge.sh/)
 ## Links:
 * https://github.com/alemesa/news-api-react
+* https://github.com/auth0-samples/auth0-react-samples
